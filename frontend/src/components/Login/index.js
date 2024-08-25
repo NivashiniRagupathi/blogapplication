@@ -13,7 +13,7 @@ function Login({ setToken }) {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:5000/auth/login', {
+            const response = await axios.post('https://blogapplication-r9rs.onrender.com/auth/login', {
                 username,
                 password
             });

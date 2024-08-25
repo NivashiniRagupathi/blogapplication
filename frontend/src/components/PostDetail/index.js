@@ -9,7 +9,7 @@ function PostDetail() {
     const [post, setPost] = useState(null);
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/posts/${id}`)
+        axios.get(`https://blogapplication-r9rs.onrender.com/posts/${id}`)
             .then(response => {
                 setPost(response.data);
             })

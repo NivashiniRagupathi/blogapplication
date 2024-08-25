@@ -11,7 +11,7 @@ function PostForm({ token }) {
         e.preventDefault();
 
         try {
-            await axios.post('http://localhost:5000/posts', {
+            await axios.post('https://blogapplication-r9rs.onrender.com/posts', {
                 title,
                 content
             }, {
