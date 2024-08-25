@@ -1,0 +1,79 @@
+/* Base styles for the PostDetail component */
+.post-detail-container {
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 20px auto; /* Center align the container with some margin */
+    padding: 20px; /* Add padding around the content */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.post-detail-container h1 {
+    font-size: 2.5em; /* Larger font size for the title */
+    margin-bottom: 15px; /* Space below the title */
+    color: #333; /* Dark color for the title */
+}
+
+.post-detail-container p {
+    font-size: 1.1em; /* Slightly larger font size for better readability */
+    line-height: 1.6; /* Increased line height for readability */
+    color: #555; /* Slightly lighter color for the content */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .post-detail-container {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    .post-detail-container h1 {
+        font-size: 2em; /* Adjust font size for the title */
+    }
+
+    .post-detail-container p {
+        font-size: 1em; /* Adjust font size for content */
+    }
+}
+
+@media (max-width: 480px) {
+    .post-detail-container {
+        padding: 10px; /* Further reduce padding on very small screens */
+    }
+
+    .post-detail-container h1 {
+        font-size: 1.5em; /* Adjust font size for very small screens */
+    }
+
+    .post-detail-container p {
+        font-size: 0.9em; /* Adjust font size for very small screens */
+    }
+}
+
+/* Loading message styles */
+.loading-message {
+    text-align: center;
+    font-size: 1.2em;
+    color: #777;
+    padding: 20px;
+}
+
+/* Add this to your existing CSS file */
+
+.back-arrow {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em; /* Adjust the size of the arrow */
+    color: #007bff; /* Color of the arrow */
+    text-decoration: none; /* Remove underline from the link */
+    margin-bottom: 20px; /* Space below the arrow */
+}
+
+.back-arrow:hover {
+    color: #0056b3; /* Darker color on hover */
+}
+
+.back-arrow svg {
+    margin-right: 8px; /* Space between the arrow and text */
+}
+
